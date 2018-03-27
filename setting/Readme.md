@@ -70,7 +70,7 @@
   npm install --save-dev babel-core babel-loader babel-preset-react babel-preset-env
   ```
 
-  ### 2. Wepback 설치
+  ### 2. Webpack 설치
   - webpack 은 글로벌로 설치하는 것이 좋다
   - 3점대로 설치하며 서버는 2점대로 설치한다.
   - webpack 과 webpack-dev-server 을 로컬 모듈로 다시 설치하는 이유는 webpack 의 livereload와 비슷한 기능인 –hot 옵션을 사용하기 위함
@@ -143,7 +143,7 @@
   - [참고_babel-loader](https://github.com/babel/babel-loader)
 
   ```
-  npm install "babel-loader@^8.0.0-beta" @babel/core @babel/preset-env @babel/node @babel/preset-react babel-loader --save-dev
+  npm install "babel-loader@^8.0.0-beta" @babel/core @babel/preset-env @babel/node @babel/preset-react --save-dev
   ```
 
   ### 2. .babelrc 파일 생성
