@@ -23,7 +23,7 @@
   class Codelab extends React.Component{
     render() {
       return (
-        <dv>
+        <div>
           <h1>Hello {this.props.name}</h1>
           <div>{this.props.children}</div>
         </div>
