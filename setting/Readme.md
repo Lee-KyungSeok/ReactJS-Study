@@ -1,7 +1,9 @@
 # Setting
   - 동일 세팅
   - Webpack3 & babel 업데이트 이하 버전
+    - `react-fundamental` 프로젝트 참고(react-hot-loader 반영됨)
   - Webpack4 & babel7 업데이트 버전(베타버전)
+    - `react-fundamental2` 프로젝트 참고(react-hot-loader 반영 안됨)
   - 패키지 및 기본구조 세팅
 
 ---
