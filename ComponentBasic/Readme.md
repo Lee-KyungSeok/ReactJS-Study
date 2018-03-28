@@ -97,6 +97,7 @@
   - state 에 배열로써 저장
   - 랜더링에 mapToComponent 함수를 만들어 지정하도록 함
   - 컴포넌트를 출력
+  - but> 컴포넌트에는 Event 를 지정할 수 없고 native tag에만 지정할 수 있음에 주의하자!
 
 
   ```javascript
@@ -115,7 +116,7 @@
     // state 를 만들었다.
     constructor(props){
       super(props)
-      
+
       this.state = {
         contactData:[
           {name:'Abet', phone:'010-0000-0001'},
