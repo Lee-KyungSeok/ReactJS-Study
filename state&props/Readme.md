@@ -72,9 +72,12 @@
 
   ### 3. Type 검증
   - 특정 Props 값이 특정 타입이 아니거나, 필수 props 인데 입력하지 않았을 경우 개발자 콘솔에서 경고를 띄울 수 있다.
+  - 지금은 설치 후 import 해주어야 한다.
+    - 설치 : `npm install --save prop-types`
+    - 모듈 추출 : `import PropTypes from 'prop-types'`
   - `Component.propTypes = {...}` 으로 사용
     - 컴포넌트 설정이 끝난 후 propTypes 을 설정한다.
-  - [PropType 참고](https://reactjs.org/docs/typechecking-with-proptypes.html#proptypes)
+  - [PropType 참고](https://www.npmjs.com/package/prop-types)
     - number : 숫자
     - string : 문자
     - any : 전부
@@ -97,9 +100,9 @@
 
   // propTypes 설정
   App.propTypes = {
-    value: React.PropTypes.string,
-    secondValue: React.PropTypes.number,
-    thirdValue: React.PropTypes.any.isRequired
+    value: PropTypes.string,
+    secondValue: PropTypes.number,
+    thirdValue: PropTypes.any.isRequired
   };
   ```
 
