@@ -1,5 +1,7 @@
 # KeyPress & Focus
   - KeyPress 구현
+  - ref 이용방법
+    - Focus 기능 사용
 
 ---
 
