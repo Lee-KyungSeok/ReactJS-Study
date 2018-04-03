@@ -153,3 +153,46 @@
     <App></App>
   )
   ```
+
+---
+## 함수형 컴포넌트
+  ### 1. 함수형 컴포넌트 사용
+  - `라이프사이클 API` 도 사용하지 않고, `state` 도 사용하지 않으면서 `props` 만을 이용하여 `뷰를 렌더링만 해주는 역할` 을 하는 경우 이용
+  - 비구조화 할당 문법을 사용해서 전달 가능
+  - 함수형 컴포넌트를 사용 할 때 첫 마운팅 속도에 있어서는 7% ~ 11% 빠름
+
+  ### 2. Redux 사용시 컴포넌트 스타일
+  - Container 컴포넌트 (혹은 Smart, 컴포넌트) 는 클래스형 컴포넌트를 사용
+  - Presentational 컴포넌트 (혹은, Dumb 컴포넌트) 는 함수형 컴포넌트를 사용
+
+  ### 3. 사용 방법
+  - 아래와 같이 사용하면 된다.
+
+  ```javascript
+  // 기본적인 사용 방법
+  function Hello(props) {
+      return (
+          <div>Hello {props.name}</div>
+      );
+  }
+
+  export default Hello;
+
+  // arrow function 이용시
+  const Hello = (props) => {
+      return (
+          <div>Hello {props.name}</div>
+      );
+  }
+
+  export default Hello;
+
+  // 비구조화 할당 사용 가능
+  const Hello = ({name}) => {
+      return (
+          <div>Hello {name}</div>
+      );
+  }
+
+  export default Hello;
+  ```
