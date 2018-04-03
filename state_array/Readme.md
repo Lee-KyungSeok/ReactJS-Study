@@ -205,5 +205,5 @@
 
   // 값을 수정
   let updateChanged = [...array.slice(0, 2), '수정' , ...array.slice(3,array.legnth -1)]
-              // 결과 : [1,2,4,5]
+              // 결과 : [1,2, 수정 ,4,5]
   ```
