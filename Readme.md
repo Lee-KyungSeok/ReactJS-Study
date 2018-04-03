@@ -25,8 +25,8 @@
 ### 8. [주소록 검색 기능 구현 ](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/Contact_Search)
 > 주소록 검색 기능 구현 (input / sort / filter)
 
-### 9. [주소록 선택 기능 구현 ](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/Contact_Search)
-> 주소록 선택 기능 구현 (세가지 파일 존재..)
+### 9. [주소록 선택 기능 구현 ](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/Contact_Select)
+> 주소록 선택 기능 구현
 
 ### 10. [주소록 추가](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/Contact_Add)
 > 주소록 추가 기능 구현
@@ -37,21 +37,47 @@
 ### 12.[KeyPress & ref](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/Contact_Extra)
 > KeyPress 사용 방법 및 / ref 사용 방법 추가 (Focus)
 
-### 13. [Component LifCycle API](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/Contact_ComponentLifeCycle)
+### 13. [Component LifCycle API](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/ComponentLifeCycle)
 > Component LifCycle API 설명
 
 ### 14. [localStorage](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/localStorage)
 > localStorage 기본 / localStorage 사용 방법
 
-### 15. [Basic Redux](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/ReduxBasic)
+### 15. [Basic API](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/apiEx)
+> Sass 설정, CSS 모듈 설정 / axios / Promise / async/await / loader 불러오기
+
+---
+## Redux 활용하기
+
+### 1. [Basic Redux](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/ReduxBasic)
 > Flux 란 / Redux 란 / Redux의 3가지 원칙
 
-### 16. [Redux Example](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/Redux_Example)
+### 2. [Redux Example](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/Redux_Example)
 > Component 작성 / Actions 작성 (객체 + 함수) / Reducer 작성 / Store 사용 / react-redux (view layer binding) - Provider 컴포넌트 / connect 함수
+
+### 3. [Redux Example_멀티카운터](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/Redux_Example2)
+> 시작 2
+
+### 4. [immutable.js](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/Redux_immutable)
+> 시작 3
+
+### 5. [Ducks 구조 / react-actions](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/Redux_ducks_reatactions)
+> 시작 4
+
+### 6. [Redux Middleware](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/Redux_middleware)
+> 시작 5
 
 ---
 
 ## 예제
 
-### 1. [Todo List](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/Example/todo)
+### 1. [Contacts](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/Example/contacts)
+> 주소록 예제 (위의 튜토리얼보다 더 추가)
+> 시작 1
+
+### 2. [Todo List](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/Example/todo)
 > 할일 목록 만들기 예제
+
+### 3. [Contacts(Redux)](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/Example/contacts_redux)
+> Redux 를 적용한 주소록 예쩨
+> 시작 6
