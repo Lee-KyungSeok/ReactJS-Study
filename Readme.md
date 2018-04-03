@@ -55,29 +55,12 @@
 ### 2. [Redux Example](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/Redux_Example)
 > Component 작성 / Actions 작성 (객체 + 함수) / Reducer 작성 / Store 사용 / react-redux (view layer binding) - Provider 컴포넌트 / connect 함수
 
-### 3. [Redux Example_멀티카운터](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/Redux_Example2)
-> 시작 2
-
-### 4. [immutable.js](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/Redux_immutable)
-> 시작 3
-
-### 5. [Ducks 구조 / react-actions](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/Redux_ducks_reatactions)
-> 시작 4
-
-### 6. [Redux Middleware](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/Redux_middleware)
-> 시작 5
-
 ---
 
 ## 예제
 
 ### 1. [Contacts](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/Example/contacts)
 > 주소록 예제 (위의 튜토리얼보다 더 추가)
-> 시작 1
 
 ### 2. [Todo List](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/Example/todo)
 > 할일 목록 만들기 예제
-
-### 3. [Contacts(Redux)](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/Example/contacts_redux)
-> Redux 를 적용한 주소록 예쩨
-> 시작 6
