@@ -1,6 +1,5 @@
 # 주소록 만들기
   - [참고_주소록](https://gist.github.com/vlpt-playground/593da90702641de2564430e2a4161eb8)
-  - ㅇㅇ
 
 ---
 
