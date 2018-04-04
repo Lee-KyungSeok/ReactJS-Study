@@ -222,6 +222,28 @@
   console.log(nextNested);
   ```
 
+  ### 4. react-immutable-proptypes
+  - immutable 에 호환되는 propTypes
+  - 설치 : `npm install --save react-immutable-proptypes`
+  - 사용 예시
+
+  ```javascript
+  import PropTypes from 'prop-types'
+  import ImmutablePropTypes from 'react-immutable-proptypes';
+
+  FavoriteList.propTypes = {
+      contacts: ImmutablePropTypes.listOf(
+          ImmutablePropTypes.mapContains({
+              id: PropTypes.string,
+              name: PropTypes.string,
+              phone: PropTypes.string,
+              color: PropTypes.string,
+              favorite: PropTypes.bool
+          })
+      )
+  };
+  ```
+
 ---
 
 ## Basic ES6 Spread
