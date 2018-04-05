@@ -10,11 +10,11 @@
   - 각 API 는 오버라이딩해서 사용할 수 있다.
   - 이를 이용해서 컴포넌트를 효율적으로 관리할 수 있다.
   - API 종류
-    - componentWillMount        : 랜더링이 되기 전 실행
+    - ~~componentWillMount        : (사라짐) 랜더링이 되기 전 실행~~
     - componentDidMount         : 랜더링이 된 다음 실행
-    - componentWillReceiveProps : 새로운 props 를 받았을 때 실행
+    - ~~componentWillReceiveProps : (사라짐) 새로운 props 를 받았을 때 실행~~
     - shouldComponentUpdate     : Component 가 update를 할지 말지 정하는 부분
-    - componentWillUpdate       : Component 가 update 되기 전 실행
+    - ~~componentWillUpdate       : (사라짐) Component 가 update 되기 전 실행~~
     - componentDidUpdate        : Component 가 update 된 다음 실행
     - componentWillUnmount      : Component 가 제거될 때 실행
 
@@ -37,7 +37,7 @@
   }
   ```
 
-  ### 2. componentWillMount
+  ### 2. ~~componentWillMount~~
   - 컴포넌트가 DOM 위에 만들어지기 전 실행
 
   ```javascript
@@ -59,7 +59,7 @@
   }
   ```
 
-  ### 5. componentWillReceiveProps
+  ### 5. ~~componentWillReceiveProps~~
   - 컴포넌트가 prop 을 새로 받았을 때 실행
   - prop 에 따라 state 를 업데이트 해야 할 때 사용하면 유용
   - 이 안에서 this.setState() 를 해도 추가적으로 렌더링하지 않는다.
@@ -83,7 +83,7 @@ JSON.stringify() 를 쓰면 여러 field 를 편하게 비교 할 수 있다.
   }
   ```
 
-  ### 7. componentWillUpdate
+  ### 7. ~~componentWillUpdate~~
   - 컴포넌트가 업데이트 되기 전에 실행
   - `this.setState() 를 사용하지 말 것!! `
     – 무한루프에 빠져들게 된다.
