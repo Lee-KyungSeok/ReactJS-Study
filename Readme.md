@@ -16,11 +16,11 @@
 ### 5. [props & state ](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/state%26props)
 > props - props란?, 기본값 설정, Type / state - state란?, state 사용 방법
 
-### 6. [Basic Component ](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/state%26props)
-> map 예시 / arrow function 예시 / Component 사용 예시
+### 6. [Basic Component ](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/ComponentBasic)
+> map 예시 / arrow function 예시 / Component 사용 예시 / 함수형 컴포넌트
 
 ### 7. [state 내부 배열 처리](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/state_array)
-> concat 함수 이용 / Immutability Helper 기본 / ES6 Spread 기본
+> immutable.js 사용방법 & react-immutable-proptypes 사용 / ES6 Spread 기본 / 참고 - Immutability Helper
 
 ### 8. [주소록 검색 기능 구현 ](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/Contact_Search)
 > 주소록 검색 기능 구현 (input / sort / filter)
@@ -54,6 +54,13 @@
 
 ### 2. [Redux Example](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/Redux_Example)
 > Component 작성 / Actions 작성 (객체 + 함수) / Reducer 작성 / Store 사용 / react-redux (view layer binding) - Provider 컴포넌트 / connect 함수
+
+### 3. [Redux Example_멀티카운터 & immutable.js 적용](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/Redux_Example2)
+> 멀티카운터에 Redux 적용 / immutable.js 적용
+
+### 4. [Ducks 구조](https://github.com/Lee-KyungSeok/ReactJS-Study/tree/master/Redux_ducks)
+> Ducks 구조란 / redux-actions 사용하기
+
 
 ---
 
