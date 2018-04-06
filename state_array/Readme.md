@@ -23,7 +23,7 @@
 
 ## immutable.js 사용
   ### 1. immutable.js 사용방법
-  - 페이스북에서 제공하는 `immutable.js` 라이브러리 사용 ([Immutability Helper 링크](https://github.com/kolodny/immutability-helper))
+  - 페이스북에서 제공하는 `immutable.js` 라이브러리 사용 ([Immutabile.js 링크](https://facebook.github.io/immutable-js/))
   -  기존의 객체는 건들이지 않고 새 객체를 생성하여 불변함을 유지하며 값을 업데이트하는 작업을 손쉽게 할 수 있다.
   - 설치 : `npm install immutable --save`
   - 사용 : `import { Map, List } from 'immutable'`
