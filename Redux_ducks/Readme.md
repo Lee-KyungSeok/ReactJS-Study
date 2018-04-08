@@ -9,7 +9,7 @@
   -  Reducer 파일 안에 액션타입과 액션생성자 함수를 함께 넣어서 관리하고 이를 ‘모듈’ 로 관리하는 구조
     - 최상단에 액션타입을 정의 (액션 타입은 `npm-module-or-app/reducer/ACTION_TYPE` 의 형식으로 정의)
     - 리듀서를 정의하고 `export default` 로 내보냄
-    - 액션생성자는 `export` 로 내보냄
+    - 액션생성자는 `export const` 로 내보냄
   - 액션타입의 경우 NPM 모듈을 만드는 경우가 아니면 `reducer/ACTION_TYPE` 의 형식으로 사용 가능
 
   > 예시
