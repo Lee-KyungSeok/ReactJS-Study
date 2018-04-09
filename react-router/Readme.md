@@ -1,5 +1,10 @@
 # 리엑트 라우터
-  - ㅇㅇ
+  - 라우트 생성 및 설정
+  - 라우트 이동(Link, NavLink)
+  - 내부 라우트 설정
+  - Redirect 사용 방법
+  - QueryString 사용방법
+  - Not Found Page 설정
 
 ---
 
@@ -183,7 +188,7 @@
 ---
 
 ## QueryParameter
-  ### 1. QueryParameter
+  ### 1. QueryParameter 내장함수 이용
   - 자바스크립트 내장함수인 `URLSearchParams` 를 이용하여 가져올 수 있다.
   - `location.search` 에 QueryParameter 가 들어있다.
 
@@ -203,6 +208,31 @@
 
   export default Search;
   ```
+
+  ### 2. QueryString 라이브러리 이용
+  - 설치 : `npm install --save query-string`
+  - 사용방법 : location의 search 에 있는 쿼리부분을 파싱한다.
+    - `query = queryString.parse(location.search)` 이용
+    - `query.detail` 과 같이 파라미터 가져올 수 있음
+
+  ```javascript
+  import React from 'react';
+  import queryString from 'query-string';
+
+  const About = ({location, match}) => {
+      const query = queryString.parse(location.search);
+      console.log(query.detail === 'Kyung');
+
+      return (
+          <div>
+              <h2>About {match.params.name}</h2>
+          </div>
+      );
+  };
+
+  export default About;
+  ```
+
 ---
 ## Not Found page 만들기
   ### 1. Not Found page 만드는 방법
