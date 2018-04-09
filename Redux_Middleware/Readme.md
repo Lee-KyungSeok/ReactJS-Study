@@ -245,14 +245,13 @@
   class App extends Component {
       componentDidMount() {
           // 컴포넌트가 처음 마운트 될 때 현재 number 를 postId 로 사용하여 포스트 내용을 로드
-          const { number, PostActions } = this.props;
-          PostActions.getPost(number);
+          const { number } = this.props;
+          this.getPost(number);
       }
       componentWillReceiveProps(nextProps) {
-          const { PostActions } = this.props;
           // 현재 number 와 새로 받을 number 가 다를 경우에 요청을 시도
           if(this.props.number !== nextProps.number) {
-              PostActions.getPost(nextProps.number)
+              this.getPost(nextProps.number)
           }
       }
 
